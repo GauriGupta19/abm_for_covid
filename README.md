@@ -1,6 +1,15 @@
 # First 100 days of pandemic; an interplay of pharmaceutical, behavioral and digital interventions – A study using agent based modeling
 <img src = "assets/pipeline_final.png" height = 600><br />
-
+ Implementation of different interventions - Testing, Self-quarantine, Vaccination, and Contact Tracing. (1) Infection
+spreads through the interaction of infected with susceptible agents, and the states of the agents are then updated based on
+disease progression. (2) Upon experiencing symptoms, exposed agents get themselves tested (3a) If tested positive, agents
+undergo self-quarantine with compliance. A quarantined agent then engages in no further interactions until the quarantine
+period ends. The interaction graph of quarantine agents is thus an isolated point (3b) Agents that have not tested positive or
+are not quarantined get vaccinated. Vaccination reduces the susceptibility of an agent to infection risk (3c) In case of contact
+tracing: interactions of the positively tested agents (that own app in case of DCT) from the previous interaction graphs of past
+days are tracked; (4c) exposure notifications are sent to the possibly exposed tracked agents (that own the app in case of DCT);
+(5c) notified agents then opt for self-quarantine. (Last) After simulating for N days, the aggregate statistics of the agent states
+are computed. Agent states here are: susceptible (S), exposed (E), infected (I), recovered (R), mortal (M), and vaccinated (V)
 ## Interventions Supported
 
 - Pharmaceutical: Testing(specificity, speed), Two-dose Vaccination (delay days, efficacy)
