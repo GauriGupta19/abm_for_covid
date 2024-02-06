@@ -3,16 +3,16 @@
 
 ## Interventions Supported
 
-- Clinical: Two-dose Vaccination (delay days, efficacy), Testing (specificity, speed)
-- Digital: Contact Tracing (adoption rate, compliance probability)
-- Behavioral - Quarantine (days, break probability)
-
-## Implementation Reference
-https://arxiv.org/pdf/2110.04421.pdf
+- Pharmaceutical: Testing(specificity, speed), Two-dose Vaccination (delay days, efficacy)
+- Behavioral: Self-Quarantine (days, break probability)
+- Contact Tracing: Digital (adoption rate, compliance probability), Manual (compliance probability), Hybrid 2-Step
 
 ## Performance benchmarking
 - 100,000 agents and 2 million interactions per second (to include graphic!)
 
+
+### Implementation Reference
+https://arxiv.org/pdf/2110.04421.pdf
 
 ## Citation
 @misc{gupta2024100,
