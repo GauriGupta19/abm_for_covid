@@ -1,10 +1,4 @@
-# DeepABM: Scalable and Differentiable Agent-based Modeling of Epidemiologic Dynamics and Interventions
-
-## Implementation Reference
-https://arxiv.org/pdf/2110.04421.pdf
-
-## Performance benchmarking
-- 100,000 agents and 2 million interactions per second (to include graphic!)
+# First 100 days of pandemic; an interplay of pharmaceutical, behavioral and digital interventions – A study using agent based modeling
 
 ## Interventions Supported
 
@@ -12,10 +6,12 @@ https://arxiv.org/pdf/2110.04421.pdf
 - Digital: Contact Tracing (adoption rate, compliance probability)
 - Behavioral - Quarantine (days, break probability)
 
-## Code used in the following papers:
-1. Ayush Chopra et al: DeepABM - Scalable and Efficient Agent-based Simulations. Winter Simulation Conference 2021
-2. Romero-brufau, Ayush Chopra et al: Public Health Impact of Delaying 2nd dose of COVID-mRNA vaccine. British Medical Journal 2021.
-3. Gauri Gupta, Ritwik Kapila, Ayush Chopra, Ramesh Raskar: First 100 days of a pandemic - an interplay of clinical, behavioral and digital interventions. AAMAS 2024
+## Implementation Reference
+https://arxiv.org/pdf/2110.04421.pdf
+
+## Performance benchmarking
+- 100,000 agents and 2 million interactions per second (to include graphic!)
+
 
 ## Citation
 @article{chopra2021deepabm,
@@ -26,4 +22,4 @@ https://arxiv.org/pdf/2110.04421.pdf
 }
 
 ## Contact
-Please email: [ayush + c]@[mit.edu]
+Please email: gaurii@mit.edu

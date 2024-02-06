@@ -52,7 +52,7 @@ age_ix_to_group_dict:
   7: AGE_70_79
   8: AGE_80
 app_adoption_rate: 1
-app_on_prob: 0.5
+app_on_prob: 0.7
 app_user_agewise_probs_dict:
   AGE_0_9: 0.09
   AGE_10_19: 0.8
@@ -63,8 +63,9 @@ app_user_agewise_probs_dict:
   AGE_60_69: 0.7
   AGE_70_79: 0.48
   AGE_80: 0.32
+dct_poc_comply_prob: 0.7
+dct_rtpcr_comply_prob: 1.0
 debug: true
-den_will_comply: 1
 genrerated_params_file_name: generated_params.yaml
 households_sizes_list:
 - 1
@@ -89,8 +90,13 @@ initialization_input_files:
   occupation_nw_parameters_filename: ./Data/Initialization/OccupationNetworkParameters.csv
   random_nw_parameters_filename: ./Data/Initialization/RandomNetworkParameters.csv
 max_den_contact_days: 7
+max_mct_contact_days: 7
+mct_poc_comply_prob: 0.8
+mct_reachable_prob: 0.8
+mct_recall_prob: 0.7
+mct_rtpcr_comply_prob: 1.0
 num_agents: 100000
-num_runs: 10
+num_runs: 1
 num_stages: 11
 num_steps: 180
 occupation_ix_to_occupations_dict:
@@ -215,24 +221,26 @@ output_location:
   plots_dir: Plots
   random_networks_dir: Random
   results_dir: Results
-poc_acceptance_prob: 1.0
 poc_den_inform_prob: 1.0
+poc_mct_inform_prob: 1.0
 poc_quarantine_enter_prob: 1.0
 poc_test_false_positive: 0.0
 poc_test_on_symptoms: true
 poc_test_only_for_den: true
 poc_test_start_date: 0
-poc_test_true_positive: 0.8
+poc_test_true_positive: 0.85
 quarantine_break_prob: 0.01
 quarantine_days: 14
-results_file_postfix: NoDenYesQNoVac
+results_file_postfix: DCT2_INIT
+rtpcr_test_start_date: 0
+scale_random_interact: 1
 seed: 1234
 stage_ix_pop_dict:
-  0: 99995
-  1: 3
-  2: 2
+  0: 99800
+  1: 50
+  2: 50
   3: 0
-  4: 0
+  4: 100
   5: 0
   6: 0
   7: 0
@@ -277,27 +285,28 @@ stages_to_ix_dict:
   SUSCEPTIBLE: 0
 test_false_positive: 0.0
 test_results_dates:
+- 1
 - 2
-- 3
-- 4
 test_results_dates_probs:
-- 0.3
-- 0.4
-- 0.3
-test_true_positive: 0.9
+- 0.5
+- 0.5
+test_true_positive: 0.95
 test_validity_days: -1
 type: generated
-use_den_logic: false
+use_den_logic: true
+use_gps_logic: false
 use_gpu: true
-use_poc_test_logic: false
+use_hybrid_logic: false
+use_mct_logic: false
+use_poc_test_logic: true
 use_quarantine_logic: true
 use_vaccination_logic: false
 vaccine_daily_production: 333
 vaccine_drop_prob_before_second_dose: 0.3
-vaccine_first_dose_effectivness: 0.7
+vaccine_first_dose_effectivness: 0.9
 vaccine_first_dose_kick_in_days: 14
 vaccine_first_dose_priority: true
 vaccine_second_dose_delay: 21
 vaccine_second_dose_effectiveness: 0.95
 vaccine_shelf_life: 2
-vaccine_start_date: 20
+vaccine_start_date: 10
