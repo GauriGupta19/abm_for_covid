@@ -14,11 +14,13 @@ https://arxiv.org/pdf/2110.04421.pdf
 
 
 ## Citation
-@article{chopra2021deepabm,
-  title={DeepABM: scalable, efficient and differentiable agent-based simulations via graph neural networks},
-  author={Chopra, Ayush and Gel, Esma and Subramanian, Jayakumar and Krishnamurthy, Balaji and Romero-Brufau, Santiago and Pasupathy, Kalyan S and Kingsley, Thomas C and Raskar, Ramesh},
-  journal={arXiv preprint arXiv:2110.04421},
-  year={2021}
+@misc{gupta2024100,
+      title={First 100 days of pandemic; an interplay of pharmaceutical, behavioral and digital interventions -- A study using agent based modeling}, 
+      author={Gauri Gupta and Ritvik Kapila and Ayush Chopra and Ramesh Raskar},
+      year={2024},
+      eprint={2401.04795},
+      archivePrefix={arXiv},
+      primaryClass={cs.MA}
 }
 
 ## Contact
