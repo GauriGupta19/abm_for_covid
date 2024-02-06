@@ -1,5 +1,5 @@
 # First 100 days of pandemic; an interplay of pharmaceutical, behavioral and digital interventions – A study using agent based modeling
-<img src = "assets/pipeline_final.png" height = 300><br />
+<img src = "assets/pipeline_final.png" height = 600><br />
 
 ## Interventions Supported
 
