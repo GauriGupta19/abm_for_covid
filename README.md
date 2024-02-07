@@ -18,10 +18,12 @@ days are tracked; (4c) exposure notifications are sent to the possibly exposed t
 are computed. Agent states here are: susceptible (S), exposed (E), infected (I), recovered (R), mortal (M), and vaccinated (V)
 
 
-### Implementation Reference
-https://arxiv.org/pdf/2110.04421.pdf
+## Acknowledgements
+
+Our implementation is based on [DeepABM](https://arxiv.org/pdf/2110.04421.pdf). We thank the authors for their work.
 
 ## Citation
+```
 @misc{gupta2024100,
       title={First 100 days of pandemic; an interplay of pharmaceutical, behavioral and digital interventions -- A study using agent based modeling}, 
       author={Gauri Gupta and Ritvik Kapila and Ayush Chopra and Ramesh Raskar},
@@ -30,6 +32,7 @@ https://arxiv.org/pdf/2110.04421.pdf
       archivePrefix={arXiv},
       primaryClass={cs.MA}
 }
+```
 
 ## Contact
 Please email: gaurii@mit.edu
