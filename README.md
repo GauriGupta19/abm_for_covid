@@ -17,9 +17,6 @@ days are tracked; (4c) exposure notifications are sent to the possibly exposed t
 (5c) notified agents then opt for self-quarantine. (Last) After simulating for N days, the aggregate statistics of the agent states
 are computed. Agent states here are: susceptible (S), exposed (E), infected (I), recovered (R), mortal (M), and vaccinated (V)
 
-## Performance benchmarking
-- 100,000 agents and 2 million interactions per second (to include graphic!)
-
 
 ### Implementation Reference
 https://arxiv.org/pdf/2110.04421.pdf
