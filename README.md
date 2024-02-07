@@ -17,7 +17,28 @@ days are tracked; (4c) exposure notifications are sent to the possibly exposed t
 (5c) notified agents then opt for self-quarantine. (Last) After simulating for N days, the aggregate statistics of the agent states
 are computed. Agent states here are: susceptible (S), exposed (E), infected (I), recovered (R), mortal (M), and vaccinated (V)
 
+## Installation
 
+To install all dependencies for training and inference, please run:
+
+```
+pip install -r requirements.txt
+```
+
+## Running the code
+To run the code. Select the configs you want to run. The logs will be saved in the './logs' directory and the checkpoints will be stored in './Data/Results' folder.
+```
+sh run_file.sh
+```
+We provide configurations for various interventions such as:
+1. `--params_no_inter.yaml` for no intervention (NI)
+2. `--params_sq.yaml` for self-qurantine alone (SQ)
+3. `--params_vacc.yaml` for 2-dose vaccination alone (VACC)
+4. `--params_ct.yaml` for 2-step Contact tracing and testing (CT)
+5. `--params_vacc_sq_test.yaml` for vaccination, testing and self-quarantine (VACC+SQ)
+6. `--params_vacc_ct.yaml` for all interventions activated: vaccination, self-quarantine, testing and contact tracing (VACC+ CT)
+    
+The parameters in the config can be modified to run different settings
 ## Acknowledgements
 
 Our implementation is based on [DeepABM](https://arxiv.org/pdf/2110.04421.pdf). We thank the authors for their work.
