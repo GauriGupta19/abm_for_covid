@@ -1,4 +1,7 @@
 # First 100 days of pandemic; an interplay of pharmaceutical, behavioral and digital interventions – A study using agent-based modeling
+
+This is the github repo for the paper: [First 100 days of pandemic; an interplay of pharmaceutical, behavioral and digital interventions – A study using agent-based modeling](https://arxiv.org/abs/2401.04795)
+
 ## Interventions Supported
 
 - Pharmaceutical: Testing(specificity, speed), Two-dose Vaccination (delay days, efficacy)
