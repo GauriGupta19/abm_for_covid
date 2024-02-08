@@ -17,6 +17,12 @@ days are tracked; (4c) exposure notifications are sent to the possibly exposed t
 (5c) notified agents then opt for self-quarantine. (Last) After simulating for N days, the aggregate statistics of the agent states
 are computed. Agent states here are: susceptible (S), exposed (E), infected (I), recovered (R), mortal (M), and vaccinated (V)
 
+## Geographical Spread
+### Infections in Kings County Washington since the beginning of pandemic
+No Intervention case            |  Vaccination+Contact Tracing+Self Quarantine case
+:-------------------------:|:-------------------------:
+![](assets/no_inter.gif) | ![](assets/vacc_ct.gif)
+
 ## Installation
 
 To install all dependencies for training and inference, please run:
