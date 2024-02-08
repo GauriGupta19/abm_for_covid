@@ -19,7 +19,7 @@ are computed. Agent states here are: susceptible (S), exposed (E), infected (I),
 
 ## Geographical Spread
 ### Infections in Kings County Washington since the beginning of pandemic
-No Intervention case            |  Vaccination+Contact Tracing+Self Quarantine case
+No Intervention            |  Vaccination+Contact Tracing+Self Quarantine
 :-------------------------:|:-------------------------:
 ![](assets/no_inter.gif) | ![](assets/vacc_ct.gif)
 
